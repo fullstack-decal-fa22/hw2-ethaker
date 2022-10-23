@@ -32,6 +32,8 @@ h2 {
 }
 
 .threevert {
+  width: 500px;
+  height: 100px;
 }
 
 .threehoriz {
@@ -75,15 +77,15 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
-  background-color: lightblue;
+.light-blue {
+  background-color: #1aa8e6;
 }
 
 .purple {
   background-color: purple;
 }
 
-.white {
+#white {
   background-color: #fff;
 }
 
@@ -91,33 +93,48 @@ h2 {
   background-color: #000;
 }
 
-/* BEGIN QUESTION 2 */
+.red {
+  background-color: red;
+}
 
+/* BEGIN QUESTION 2 */
 .thailand-red {
-  /* TODO */
+  width: 500px;
+  height: 50px;
+  background-color: #B5002D;
 }
 
 .thailand-white {
-  /* TODO */
+  height: 50px;
+  background-color: white;
 }
 
 .thailand-blue {
-  /* TODO */
+  height: 100px;
+  background-color: #2E2A4C;
 }
 
 /* END QUESTION 2 */
 
 /* BEGIN QUESTION 3 */
 
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+}
+
 .romania-blue {
+  height: 300px;
   background-color: #002c84;
 }
 
 .romania-yellow {
+  height: 300px;
   background-color: #ffcf00;
 }
 
 .romania-red {
+  height: 300px;
   background-color: #e10017;
 }
 
@@ -129,7 +146,12 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  background-image: url("eagle.png");
+  background-color: #cccccc;
+  align-self: center;
+  max-height: 100px;
+  max-width: available;
+
 }
 
 .mexico-red {
